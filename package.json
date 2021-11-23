@@ -1,0 +1,23 @@
+{
+  "name": "tuplesquad",
+  "version": "1.0.0",
+  "description": "Find green alternatives in shopping sites",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdb571/tuplesquad.git"
+  },
+  "keywords": [
+    "shopping",
+    "green"
+  ],
+  "author": "team tuplesquad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdb571/tuplesquad/issues"
+  },
+  "homepage": "https://github.com/mdb571/tuplesquad#readme"
+}

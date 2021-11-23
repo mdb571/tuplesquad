@@ -1,11 +1,12 @@
 from flask import Flask, jsonify, request
-from flask_pymongo import PyMongo
-from bson.json_util import dumps
-from bson.objectid import ObjectId
+#from flask_pymongo import PyMongo
+#from bson.json_util import dumps
+#from bson.objectid import ObjectId
 from flask import jsonify, request
 from deta import Deta
 import json
-import pymongo
+
+#import pymongo
 
 app = Flask(__name__)
 deta = Deta('c052t59b_4GGFLneztbAy6QQLfkSV1C74uuPQVD4K')
@@ -15,14 +16,25 @@ deta = Deta('c052t59b_4GGFLneztbAy6QQLfkSV1C74uuPQVD4K')
 # mongo = PyMongo(app)
 
 shopping = deta.Base("shopping")
+users =deta.Base("users")
 
 
 # client = pymongo.MongoClient("mongodb+srv://midhun1114:midhun1114@cluster0.co0xz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 # db = client.midhun
 # collection=db['test']
 
-@app.route('/add', methods=['POST'])
-def add_alt():
+@app.route('/init', methods=['GET'])
+def init():
+	browser_id=abs(hash(request.remote_addr))
+	footprint= 0
+	
+	user=users.put({"user_id":browser_id,"footprint":footprint})
+	
+	return jsonify(user, 201)
+
+
+@app.route('/add/<key>', methods=['POST'])
+def add_alt(key):
     __json = json.loads(request.data)
     _item = __json['item']
     _alt_url = __json['alt_url']
@@ -33,6 +45,13 @@ def add_alt():
         # id=mongo.db.greentest.insert_one({"item":_item,'alt_title':_alt_title,"alt_url":_alt_url,"alt_price":_alt_price,"alt_img":_alt_img})
         shopping.insert(
             {"item": _item, 'alt_title': _alt_title, "alt_url": _alt_url, "alt_price": _alt_price, "alt_img": _alt_img})
+        
+        user = users.get(key)
+        user['footprint']+=5
+        
+        users.put(user)
+        
+        
         resp = jsonify("added")
         resp.status_code = 200
         return resp

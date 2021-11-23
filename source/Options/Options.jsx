@@ -7,7 +7,7 @@ const Options = () => {
     <div>
       <form>
         <p>
-          <label htmlFor="username">Your Name</label>
+          <label htmlFor="username">Team Tuple Squad</label>
           <br />
           <input
             type="text"

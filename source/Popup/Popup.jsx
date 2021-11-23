@@ -10,7 +10,7 @@ function openWebPage(url) {
 const Popup = () => {
   return (
     <section id="popup">
-      <h2>green</h2>
+      <h2>{document.title}</h2>
       <button
         id="options__button"
         type="button"

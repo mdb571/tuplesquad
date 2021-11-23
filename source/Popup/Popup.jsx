@@ -20,7 +20,7 @@ const Popup = () => {
       >
         Options Page
       </button>
-      <div className="links__holder">
+      {/* <div cldivassName="links__holder">
         <ul>
           <li>
             <button
@@ -47,7 +47,7 @@ const Popup = () => {
             </button>
           </li>
         </ul>
-      </div>
+      </div> */}
     </section>
   );
 };

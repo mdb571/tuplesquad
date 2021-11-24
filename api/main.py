@@ -68,7 +68,7 @@ def get_one_framework():
     title = title["title"].lower()
     title = title.split()
     print(title)
-    ourItems = ['chair','pen']
+    ourItems = ['chair','powerbank','toothbrush','bottle','kitchen','utensil','pen']
     found =[]
     for i in title:
         if i in ourItems:

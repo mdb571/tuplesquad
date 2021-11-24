@@ -11,9 +11,9 @@
 - Develop solutions to assist users reduce/reject plastic/non eco friendly products while shopping online by suggesting better eco friendly alternatives
 
 ## Video and Presentation
-- Video Demo : [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
-- Presentation : [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
-- Download : [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
+- Video Demo : [https://www.youtube.com/watch?v=UhIcFeM3Sc4](https://www.youtube.com/watch?v=UhIcFeM3Sc4 "https://www.youtube.com/watch?v=UhIcFeM3Sc4").
+- Presentation : [Google Slides](https://docs.google.com/presentation/d/1QdtCWOMWYraRxLZRcuMeWfY5relAkgkwaRvpGNCWU9A/edit?usp=sharing "Google Slides").
+- Download : [Google Chrome](https://github.com/mdb571/tuplesquad/releases/tag/v1.0.1 "Google Chrome").
 
 
 ## Value Proposition

@@ -1,4 +1,5 @@
-import * as React from 'react';
+import  React,{useEffect,useState} from 'react';
+import axios from 'axios';
 import browser from 'webextension-polyfill';
 
 import './styles.scss';
@@ -8,6 +9,12 @@ function openWebPage(url) {
 }
 
 const Popup = () => {
+  const [user, setUser] = useState(null);
+  useEffect(() => {
+    axios.get('/api/user').then(res => {
+      setUser(res.data);
+    });
+  },[]);
   return (
     <section id="popup">
       <h2>{document.title}</h2>

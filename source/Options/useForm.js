@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-
+import axios from 'axios';
 const useForm = (callback, validate) => {
   const [values, setValues] = useState({
     itemname: '',
@@ -22,6 +22,17 @@ const useForm = (callback, validate) => {
   const handleSubmit = e => {
     e.preventDefault();
     setIsSubmitting(true);
+
+    let data = {
+      item: values.itemname,
+      alt_title: values.altitem,
+      alt_url: values.alturl,
+      alt_img: values.imgurl,
+      alt_price:values.amount,
+    };
+    
+    axios.post('https://dswqyz.deta.dev/add/t96aac78ft70', data)
+    .then(response => console.log(response));
   };
 
   useEffect(

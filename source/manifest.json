@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Greenish Amazon",
-  "version": "0.0.1",
+  "name": "GreenALT",
+  "version": "1.0.1",
 
   "icons": {
     "16": "assets/icons/favicon-16.png",
@@ -9,9 +9,9 @@
     "48": "assets/icons/favicon-48.png",
     "128": "assets/icons/favicon-128.png"
   },
-  "description": "Sample description",
-  "homepage_url": "https://github.com/abhijithvijayan/web-extension-starter",
-  "short_name": "Sample Name",
+  "description": "GreenALT | Find alternatives for Amazon",
+  "homepage_url": "https://github.com/mdb571/tuplesquad",
+  "short_name": "GreenALT",
 
   "permissions": [
     "activeTab",
@@ -22,9 +22,9 @@
 
   "content_security_policy": "script-src 'self'; object-src 'self'",
 
-  "__chrome|firefox__author": "abhijithvijayan",
+  "__chrome|firefox__author": "TeamTupleSquad",
   "__opera__developer": {
-    "name": "abhijithvijayan"
+    "name": "TeamTupleSquad"
   },
 
   "__firefox__applications": {

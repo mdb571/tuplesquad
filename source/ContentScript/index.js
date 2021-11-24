@@ -44,7 +44,7 @@ const getProducts = (title) => {
               class="a-unordered-list a-nostyle a-horizontal a-spacing-base a-spacing-top-base _p13n-desktop-sims-fbt_fbt-desktop_thumbnail-box__4jnIT">
               <li class="a-align-center"><span class="a-list-item">
               <div class="a-section thumbnail-2" style="display: unset;"><a class="a-link-normal"
-                      href="/Cello-Finegrip-Ball-Pen-Set/dp/B074VD1BVV/ref=pd_day0fbt_img_1/262-0079629-3149937?pd_rd_w=EbRno&amp;pf_rd_p=ae7b3a49-898e-4eff-9f9e-f5ff20359c4a&amp;pf_rd_r=CXG6VEQFKR4QWXQ3BWZW&amp;pd_rd_r=956caa4d-1743-4d54-83c2-0da51dd3b3ff&amp;pd_rd_wg=pVLdq&amp;pd_rd_i=B074VD1BVV&amp;psc=1"><img
+                      href="${altPro[0]?.alt_url}"><img
                           alt="Cello Finegrip Ball Pen | Blue Ball Pens | Jar of 25 Units | Best Ball Pens for Smooth Writing | Ball Point Pen Set&nbsp; | Pens f"
                           src="${altPro[0]?.alt_img}"
                           class="a-dynamic-image p13n-sc-dynamic-image p13n-product-image" height="116px"
@@ -53,7 +53,7 @@ const getProducts = (title) => {
           </span></li>
               <li class="a-align-center"><span class="a-list-item">
                       <div class="a-section thumbnail-2" style="display: unset;"><a class="a-link-normal"
-                              href="/Cello-Finegrip-Ball-Pen-Set/dp/B074VD1BVV/ref=pd_day0fbt_img_1/262-0079629-3149937?pd_rd_w=EbRno&amp;pf_rd_p=ae7b3a49-898e-4eff-9f9e-f5ff20359c4a&amp;pf_rd_r=CXG6VEQFKR4QWXQ3BWZW&amp;pd_rd_r=956caa4d-1743-4d54-83c2-0da51dd3b3ff&amp;pd_rd_wg=pVLdq&amp;pd_rd_i=B074VD1BVV&amp;psc=1"><img
+                              href="${altPro[1]?.alt_url}"><img
                                   alt="Cello Finegrip Ball Pen | Blue Ball Pens | Jar of 25 Units | Best Ball Pens for Smooth Writing | Ball Point Pen Set&nbsp; | Pens f"
                                   src="${altPro[1]?.alt_img}"
                                   class="a-dynamic-image p13n-sc-dynamic-image p13n-product-image" height="116px"
@@ -62,7 +62,7 @@ const getProducts = (title) => {
                   </span></li>
               ${altPro[2] ? (`<li class="a-align-center"><span class="a-list-item">
                       <div class="a-section thumbnail-3" style="display: unset;"><a class="a-link-normal"
-                              href="/Cello-Butterflow-Ball-Pen-Set/dp/B07D4MYZFH/ref=pd_day0fbt_img_2/262-0079629-3149937?pd_rd_w=EbRno&amp;pf_rd_p=ae7b3a49-898e-4eff-9f9e-f5ff20359c4a&amp;pf_rd_r=CXG6VEQFKR4QWXQ3BWZW&amp;pd_rd_r=956caa4d-1743-4d54-83c2-0da51dd3b3ff&amp;pd_rd_wg=pVLdq&amp;pd_rd_i=B07D4MYZFH&amp;psc=1"><img
+                              href="${altPro[2]?.alt_url}"><img
                                   alt="Cello Butterflow Ball Pen Set - Blue | Pack of 10 | Ball Pens for Smooth Writing | Blue Pens for Good Handwriting | Ball Pens"
                                   src="${altPro[2]?.alt_img ? altPro[2]?.alt_img:""}"
                                   class="a-dynamic-image p13n-sc-dynamic-image p13n-product-image" height="116px"

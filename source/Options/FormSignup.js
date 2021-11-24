@@ -14,7 +14,7 @@ const FormSignup = ({ submitForm }) => {
     <div className='form-content-right'>
       <form onSubmit={handleSubmit} className='form' noValidate>
         <h1>
-         Survey To GO Green
+         Add an Eco friendly Item
         </h1>
         <div className='form-inputs'>
           <label className='form-label'>Item Name</label>

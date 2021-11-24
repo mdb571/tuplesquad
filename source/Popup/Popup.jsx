@@ -17,7 +17,9 @@ const Popup = () => {
   },[]);
   return (
     <section id="popup">
-      <h2>{document.title}</h2>
+      <h2>{"Team TupleSquad"}</h2>
+      <img className='fsorm-img'  style ={{filter: "blur(0px)"}}src='https://www.kindpng.com/picc/m/677-6776683_go-green-logo-png-raiffeisen-bank-transparent-png.png' alt="" />
+      <p style={{textAlign:"center"}}>Green Shopping Intiative</p>
       <button
         id="options__button"
         type="button"
@@ -25,36 +27,24 @@ const Popup = () => {
           return openWebPage('options.html');
         }}
       >
-        Options Page
+        Suggest Green Items
       </button>
-      {/* <div cldivassName="links__holder">
+      <div cldivassName="links__holder">
         <ul>
-          <li>
+          <li style={{textAlign:"center", cursor:"pointer"}}>
             <button
               type="button"
               onClick={() => {
                 return openWebPage(
-                  'https://github.com/abhijithvijayan/web-extension-starter'
+                  'https://github.com/mdb571/tuplesquad'
                 );
               }}
             >
               GitHub
             </button>
           </li>
-          <li>
-            <button
-              type="button"
-              onClick={() => {
-                return openWebPage(
-                  'https://www.buymeacoffee.com/abhijithvijayan'
-                );
-              }}
-            >
-              Buy Me A Coffee
-            </button>
-          </li>
         </ul>
-      </div> */}
+      </div>
     </section>
   );
 };

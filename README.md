@@ -14,7 +14,8 @@
 
 ## Libraries used
 ### Frontend
-- react
+  - vanilaJs
+  - React
   
 ### Backend
 - flask 

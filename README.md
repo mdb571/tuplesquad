@@ -40,13 +40,22 @@ Refer package.json and requirements.txt respectively for more details
 ## Screenshots
 
 <div>
-  <img width="600" src="assets/home.png" alt="home" />
+  <img width="600" src="assets/pic1.jpeg" alt="pic" />
+</div>
+<br/>
+  
+<div>
+  <img width="600" src="assets/pic2.jpeg" alt="pic" />
+</div>
+<br/>
+  
+<div>
+  <img width="600" src="assets/pic3.jpeg" alt="pic" />
 </div>
 <br/>
 
-
 <div>
-  <img width="600" src="assets/login.png" alt="login" />
+  <img width="600" src="assets/pic4.jpeg" alt="pic" />
 </div>
 <br/>
 

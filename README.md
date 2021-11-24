@@ -7,19 +7,34 @@
 </div>
 <!-- <h3 align="center">Made by <a href="https://github.com/mdb571">@mdb571⚡</a> & <a href="https://github.com/bmnidhin">@bmnidhin:rocket:</a></h3> -->
 
+## Problem Statement
+- Develop solutions to assist users reduce/reject plastic/non eco friendly products while shopping online by suggesting better eco friendly alternatives
+
+## Video and Presentation
+- Video Demo : [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
+- Presentation : [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
+- Download : [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
+
+
+## Value Proposition
+- Our extension provides a reliant way to reduce the carbon footprint of a user by suggesting eco friendly alternatives while the user is visiting an 
+e-commerce website.
+
+Using a green alternative instead of a plastic commodity is always a better solution thus reducing the carbon footprint.
+
 ## How it works ?
--  <Insert Name> suggests you green alternatives when you try to buy something not sustainable from amazon
+-  GreenAlt suggests you green alternatives when you try to buy something not sustainable from amazon
 - Users can also submit green alternatives via the extension thus thereby contributing to our vision.
 - The extension calculates the the amount of carbon footprint reduced when something greener is bought via the extension
 
-## Libraries used
+## Architecture
 ### Frontend
-  - vanilaJs
-  - React
+  - VanilaJs - Form extract page title, API Calls and Rendering Suggetions in Amazon webpage using DOM manipulation
+  - React - Extention popup, User product submission form
   
 ### Backend
-- flask 
-- deta
+- Flask - API endpoints, Database interface
+- Deta - Databse Paas
 
 Refer package.json and requirements.txt respectively for more details
 
@@ -70,7 +85,16 @@ Refer package.json and requirements.txt respectively for more details
 - run the server with `flask run`
 - Now you can start sending requests from the frontend to the backend API
 
-[Download Link](https://threadunni.tech) 
+### Contributors
+
+- Nidhin BM - Frontend
+- Akash Nair - Frontend
+- Midhun G G - Backend
+- Mohd Bilal - Backend
+- Alan Joy- Backend
+- Nithin EC - Presentation
+Harikrishnan - Presentation
+
 ## Screenshots
 
 <div>

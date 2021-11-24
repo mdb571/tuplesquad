@@ -58,4 +58,4 @@ Feel free to open a pull request if you can help in improving this project.
 
 ## Licence
 
-Code released under the [GPL](LICENSE).
+Code released under the [AGPL](LICENSE).

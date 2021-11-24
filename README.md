@@ -1,4 +1,4 @@
-<div align="center"><img width="150" src="assets/logo.png" /></div>
+<!-- <div align="center"><img width="150" src="assets/logo.png" /></div> -->
 <h1 align="center">GreenALT</h1>
 <p align="center">Cross Platform Browser Extension that suggests you sustainable alternatives on amazon</p>
 <div align="center">

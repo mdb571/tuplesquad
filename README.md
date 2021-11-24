@@ -24,13 +24,46 @@ Refer package.json and requirements.txt respectively for more details
 
 ## Setup
 ### Frontend
-- Install the required npm packages with `npm install`
-- Start development server `yarn start` or `react-scripts start`
-  Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-- Build with `yarn build`
-  Builds the app for production to the `build` folder 
+- `yarn install` to install dependencies.
+- `yarn run dev:chrome` to start the development server for chrome extension
+- `yarn run dev:firefox` to start the development server for firefox addon
+- `yarn run dev:opera` to start the development server for opera extension
+- `yarn run build:chrome` to build chrome extension
+- `yarn run build:firefox` to build firefox addon
+- `yarn run build:opera` to build opera extension
+- `yarn run build` builds and packs extensions all at once to extension/ directory
   
-### Backend 
+  
+  ### Development
+
+- `yarn install` to install dependencies.
+- To watch file changes in development
+
+  - Chrome
+    - `yarn run dev:chrome`
+  - Firefox
+    - `yarn run dev:firefox`
+  - Opera
+    - `yarn run dev:opera`
+
+- Wait extention to build
+- **Load extension in browser**
+
+- ### Chrome
+
+  - Go to the browser address bar and type `chrome://extensions`
+  - Check the `Developer Mode` button to enable it.
+  - Click on the `Load Unpacked Extension…` button.
+  - Select your extension’s extracted directory.
+
+- ### Firefox
+
+  - Load the Add-on via `about:debugging` as temporary Add-on.
+  - Choose the `manifest.json` file in the extracted directory
+
+  
+### Backend
+- From `api` directory  
 - Install the required python libraries `pip install -r requirements.txt`
 - Set `FLASK_APP` environment variable to `main`
 - run the server with `flask run`

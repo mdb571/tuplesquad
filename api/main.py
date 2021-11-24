@@ -5,7 +5,7 @@ from flask import Flask, jsonify, request
 from flask import jsonify, request
 from deta import Deta
 import json
-
+from flask_cors import CORS
 #import pymongo
 
 app = Flask(__name__)
@@ -14,6 +14,9 @@ deta = Deta('c052t59b_4GGFLneztbAy6QQLfkSV1C74uuPQVD4K')
 # app.config['MONGO_URI'] = 'mongodb+srv://tuplesquad:tuplesquad7@cluster0.co0xz.mongodb.net/greenalt'
 
 # mongo = PyMongo(app)
+
+
+CORS(app)
 
 shopping = deta.Base("shopping")
 users =deta.Base("users")

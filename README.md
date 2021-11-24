@@ -1,5 +1,5 @@
 <div align="center"><img width="150" src="assets/logo.png" /></div>
-<h1 align="center">Insert Name here</h1>
+<h1 align="center">GreenALT</h1>
 <p align="center">Cross Platform Browser Extension that suggests you sustainable alternatives on amazon</p>
 <div align="center">
   <img alt="GitHub" src="https://img.shields.io/github/license/mdb571/tuplesquad?style=flat-square">

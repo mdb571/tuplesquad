@@ -87,7 +87,17 @@ def get_green_alt():
         }, last=res.last)
         all_items += res.items
     return jsonify(all_items)
+# @app.route('/recommendation', methods=['POST'])
+# def get_all():
+#     res = shopping.fetch()
 
+#     all_items = res.items
+
+#     # fetch until last is 'None'
+#     while res.last:
+#         res = shopping.fetch()
+#         all_items += res.items
+#     return jsonify(all_items)
 
 @app.errorhandler(404)
 def not_found(error=None):

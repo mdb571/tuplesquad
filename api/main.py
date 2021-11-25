@@ -63,7 +63,7 @@ def add_alt(key):
 
 
 @app.route('/shopping', methods=['POST'])
-def get_one_framework():
+def get_green_alt():
     title = json.loads(request.data)
     title = title["title"].lower()
     title = title.split()
